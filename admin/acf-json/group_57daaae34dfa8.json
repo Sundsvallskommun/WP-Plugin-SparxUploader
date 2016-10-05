@@ -1,0 +1,60 @@
+{
+    "key": "group_57daaae34dfa8",
+    "title": "Sparx",
+    "fields": [
+        {
+            "key": "field_57daaaeba0fa6",
+            "label": "Kopplad fil",
+            "name": "sk_sparx_file",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": "zip"
+        },
+        {
+            "key": "field_57f4d7c35e824",
+            "label": "Information\/hj\u00e4lp",
+            "name": "informationhjalp",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Titel\/rubrik f\u00f6r denna post \u00e4r inget som visas f\u00f6r bes\u00f6karen utan anv\u00e4nds f\u00f6r n\u00e4rvarande endast f\u00f6r att lista sparx posterna i administrationen.\r\n\r\nLadda upp en zip fil inneh\u00e5llande sparx filer genom att klicka p\u00e5 \"L\u00e4gg till fil\". \r\nVarje sparx projekt m\u00e5ste inneh\u00e5lla en index.htm fil f\u00f6r att det ska ges direkt\u00e5tkomst via den genererade l\u00e4nken. \r\n\r\nF\u00f6r att radera en folder\/mapp inneh\u00e5llande sparx filer beh\u00f6ver posten f\u00f6rutom att tas bort \u00e4ven raderas fr\u00e5n papperskorgen. N\u00e4r posten raderas permanent raderas \u00e4ven den ursprungliga zip filen fr\u00e5n mediabiblioteket.",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "sparx"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1475664480
+}
